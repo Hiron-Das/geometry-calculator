@@ -12,4 +12,8 @@ function rectangleArea() {
     const area = width * length;
     console.log(area);
 
+    // display rectangle area
+    const areaSpan = document.getElementById('rectangle-area');
+    areaSpan.innerText = area;
+
 }

@@ -6,3 +6,11 @@ module.exports = {
     },
     plugins: [],
 }
+
+module.exports = {
+    theme: {
+        colors: {
+            'nav': 'rgba(16, 144, 216, 0.10)'
+        }
+    }
+}
